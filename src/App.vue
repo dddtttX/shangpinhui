@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <demo></demo>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    // import demo from "./components/01Von.vue"
+    // import demo from "./components/02Vbind"
+    // import demo from "./components/03Vfor"
+    // import demo from "./components/04bookDemo"
+    // import demo from "./components/05pointDemo"
+    import demo from "./components/06fruitsDemo.vue"
+    export default {
+        name: "App",
+        components: {
+            demo,
+        },
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+        data: () => {
+            return {}
+        },
+        methods: {},
+    }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
