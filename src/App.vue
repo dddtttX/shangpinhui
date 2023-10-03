@@ -10,7 +10,9 @@
     // import demo from "./components/03Vfor"
     // import demo from "./components/04bookDemo"
     // import demo from "./components/05pointDemo"
-    import demo from "./components/06fruitsDemo.vue"
+    // import demo from "./components/06fruitsDemo.vue"
+    // import demo from "./components/sgg/watchDemo.vue"
+    import demo from "./components/sgg/todolist/todolistDemo.vue"
     export default {
         name: "App",
         components: {
